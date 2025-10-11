@@ -6,6 +6,16 @@ const MainNavigation = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const menuItems = [
     { 
+      label: 'Our Range', 
+      href: '/products', 
+      hasDropdown: true,
+      dropdownItems: [
+        { label: 'All Models', href: '/products/all' },
+        { label: 'Off-Road', href: '/products/offroad' },
+        { label: 'Family', href: '/products/family' },
+      ]
+    },
+    { 
       label: 'About', 
       href: '/about', 
       hasDropdown: true,
@@ -17,17 +27,7 @@ const MainNavigation = () => {
         { label: 'AMBASSADORS', href: '/about/ambassadors', hasSubmenu: true },
         { label: 'LOTUS CARE', href: '/about/care' },
       ]
-    },
-    { 
-      label: 'Our Range', 
-      href: '/products', 
-      hasDropdown: true,
-      dropdownItems: [
-        { label: 'All Models', href: '/products/all' },
-        { label: 'Off-Road', href: '/products/offroad' },
-        { label: 'Family', href: '/products/family' },
-      ]
-    },
+    },   
     { 
       label: 'VR Agent', 
       href: '/vr-agent', 
