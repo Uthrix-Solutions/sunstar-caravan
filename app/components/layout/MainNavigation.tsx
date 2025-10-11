@@ -61,13 +61,13 @@ const MainNavigation = () => {
           <div className="flex items-center space-x-3">
             <Link 
               href="/request-demo"
-              className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-md font-medium transition-colors text-sm"
+              className="bg-cama-green hover:bg-cama-leaf-green text-white px-6 py-2  font-medium transition-colors text-sm"
             >
               Request DEMO
             </Link>
             <Link 
               href="/build-your-own"
-              className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-md font-medium transition-colors text-sm"
+              className="bg-cama-green hover:bg-cama-leaf-green text-white px-6 py-2 font-medium transition-colors text-sm"
             >
               Build Your Own
             </Link>
