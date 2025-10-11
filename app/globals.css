@@ -3,9 +3,10 @@
 :root {
 
   /* Brand Colors */
-  --primary-color: #2563eb;
-  --primary-dark: #1d4ed8;
-  --primary-light: #3b82f6;
+  --primary-cama-black: #191919;
+  --primary-cama-green: #264027;
+  --primary-cama-forest: #8E8C77;
+  --primary-cama-leaf-green: #54644A;
   
   --background: #ffffff;
   --foreground: #171717;
@@ -26,7 +27,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--foreground);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,3 +48,5 @@ body {
 .group:hover .group-hover\:visible {
   z-index: 50;
 }
+
+

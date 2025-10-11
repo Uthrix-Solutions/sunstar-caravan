@@ -1,8 +1,10 @@
 import React from 'react'
+import Button from '../components/ui/Button'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div><Button>Explore Here</Button>
+</div>
   )
 }
 
