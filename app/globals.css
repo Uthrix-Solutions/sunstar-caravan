@@ -17,6 +17,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Add your custom colors here */
+  --color-cama-black: var(--primary-cama-black);
+  --color-cama-green: var(--primary-cama-green);
+  --color-cama-forest: var(--primary-cama-forest);
+  --color-cama-leaf-green: var(--primary-cama-leaf-green);
 }
 
 @media (prefers-color-scheme: dark) {
