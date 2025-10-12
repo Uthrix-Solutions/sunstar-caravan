@@ -9,7 +9,7 @@ interface ButtonProps {
   type?: 'button' | 'submit' | 'reset'
 }
 
-const Button: React.FC<ButtonProps> = ({
+const PolygonButton: React.FC<ButtonProps> = ({
   children,
   onClick,
   variant = 'primary',
@@ -52,4 +52,4 @@ const Button: React.FC<ButtonProps> = ({
   )
 }
 
-export default Button
+export default PolygonButton
