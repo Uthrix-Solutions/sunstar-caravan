@@ -49,11 +49,12 @@ const MainNavigation = () => {
     },
   ];
 
-  const handleToggleDropdown = (label: string) => {
-    setActiveDropdown(label);
+ const handleToggleDropdown = (label: string) => {
+    setActiveDropdown(activeDropdown === label ? null : label);
   };
 
   const handleCloseDropdown = () => {
+    debugger;
     setActiveDropdown(null);
   };
 
